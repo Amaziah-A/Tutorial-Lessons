@@ -1,0 +1,12 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border: 2px solid blue;
+}
+
+header{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+}
