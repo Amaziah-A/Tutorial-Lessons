@@ -1,0 +1,126 @@
+---
+import LayoutSite from '@layouts/LayoutSite.astro'
+
+import Hero from '@components/site/homepage/Hero.astro'
+import Screenshot from '@components/site/homepage/Screenshot.astro'
+import Features from '@components/site/homepage/Features.astro'
+import Testimonial from '@components/site/homepage/Testimonial.astro'
+import Pricing from '@components/site/homepage/Pricing.astro'
+import FAQ from '@components/site/homepage/FAQ.astro'
+---
+
+<LayoutSite>
+	<h1>Astro</h1>
+	<Hero />
+	<Screenshot />
+	<Features />
+	<Testimonial />
+	<Pricing />
+	<FAQ />
+</LayoutSite>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<h1>Astro</h1>
+	</body>
+     
+	<footer>
+		<div class='max-w-7xl px-6 pb-8 mx-auto mt-20'>
+			<footer
+			  class='py-20 border-t grid grid-cols-2 lg:grid-cols-4 gap-8'>
+			  <div>
+				<h3 class='pb-5 font-semibold leading-6 border-b'>
+				  Product
+				</h3>
+				<ul class='mt-6 space-y-4'>
+				  <li>
+					<a
+					  href='/#features'
+					  class='leading-6 dark:hover:text-white'
+		  >Features</a
+		  >
+				  </li>
+				  <li>
+					<a
+					  href='/#pricing'
+					  class='leading-6 dark:hover:text-white'
+		  >Pricing</a
+		  >
+				  </li>
+				</ul>
+			  </div>
+			  <div>
+				<h3 class='pb-5 font-semibold leading-6 border-b'>
+				  Support
+				</h3>
+				<ul class='mt-6 space-y-4'>
+				  <li>
+					<a
+					  href='#'
+					  class='leading-6 dark:hover:text-white'>
+					  Documentation
+					</a>
+				  </li>
+				  <li>
+					<a
+					  href='#'
+					  class='leading-6 dark:hover:text-white'
+		  >Guides</a
+		  >
+				  </li>
+				</ul>
+			  </div>
+			  <div>
+				<h3 class='pb-5 font-semibold leading-6 border-b'>
+				  Company
+				</h3>
+				<ul class='mt-6 space-y-4'>
+				  <li>
+					<a
+					  href='#'
+					  class='leading-6 dark:hover:text-white'
+		  >About</a
+		  >
+				  </li>
+				  <li>
+					<a
+					  href='/blog'
+					  class='leading-6 dark:hover:text-white'
+		  >Blog</a
+		  >
+				  </li>
+				</ul>
+			  </div>
+			  <div>
+				<h3 class='pb-5 font-semibold leading-6 border-b'>
+				  Legal
+				</h3>
+				<ul class='mt-6 space-y-4'>
+				  <li>
+					<a
+					  href='#'
+					  class='leading-6 dark:hover:text-white'
+		  >Privacy</a
+		  >
+				  </li>
+				  <li>
+					<a
+					  href='#'
+					  class='leading-6 dark:hover:text-white'
+		  >Terms</a
+		  >
+				  </li>
+				</ul>
+			  </div>
+			</footer>
+		  </div>
+	</footer>
+
+</html>
